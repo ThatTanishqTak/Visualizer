@@ -1,1 +1,10 @@
 
+[submodule "vendor/kissfft"]
+	path = vendor/kissfft
+	url = https://github.com/ThatTanishqTak/kissfft.git
+[submodule "vendor/spdlog"]
+	path = vendor/spdlog
+	url = https://github.com/ThatTanishqTak/spdlog.git
+[submodule "vendor/Catch2"]
+	path = vendor/Catch2
+	url = https://github.com/ThatTanishqTak/Catch2.git
