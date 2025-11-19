@@ -13,8 +13,8 @@ if (MSVC)
 endif()
 
 # Source files
-set(SOURCES
-    src/EntryPoint.cpp
+file(GLOB_RECURSE SOURCES
+    src/*.cpp
 )
 
 add_library(Visualizer SHARED ${SOURCES})
